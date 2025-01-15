@@ -48,6 +48,7 @@ export const getAllResidencies = asyncHandler(async (req, res) => {
     },
   });
   res.send(residencies);
+  // res.send({"Success":true});
 });
 
 // function to get a specific document/residency
